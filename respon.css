@@ -72,6 +72,18 @@
     margin-top: 17px;
 
 }
+.text-aside {
+    display: inline-block;
+    padding: 50px;
+
+}
+.gambar-aside img {
+    width: 300px;
+}
+.serutama {
+    display: block;
+    margin-left: 40px;
+}
    
 
 }
