@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+
+    .mobile-menu {
+        display: block;
+    }
+
+    
+    .nav ul li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    header 
+    {
+        margin: 0;
+    }
+    #check {
+        position: absolute;
+    }
+    .atas {
+        display: none;
+    }
+    .btn1 {
+        display: none;
+    }
+    /* .atas ul {
+        display: none;
+    } */
+
+}
