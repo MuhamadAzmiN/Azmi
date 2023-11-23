@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.nav ul li:hover {
+    background-color: gold;
+}
+.nav ul li {
+    color: white;
+}
+.btn1 {
+    float: right;
+    margin-top: 15px;
+    margin-right: 300px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 30px;
+}
+
+header {
+    height: 70px;
+}
+
+header h1 {
+    display: inline-block;
+    padding: 15px 24px;
+}
+
+header h1 a:hover {
+    color: gold;
+}
+
+header ul {
+   
+}
+
+header li {
+    padding: 24px;
+    display: inline-block;
+}
+
+header ul li a:hover {
+    color: gold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.atas {
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    
+    margin-left: 600px
+}
+
+.atas a {
+    color: rgb(0, 0, 0);
+}
+
+.atas:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.mobile-menu {
+    float: right;
+    display: none;
+    padding: 20px;
+   margin-right: 20px;
+}
+
+.mobile-menu:hover {
+    cursor: pointer;
+}
+
+/* #id {
+    display: none;
+} */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -300px;
+    width: 200px;
+    background-color: black;
+    transition: .3s;
+    height: 400px;
+}
+
+.sidebar ul li a {
+    color: white;
+}
+
+.sidebar ul li {    
+    padding: 24px;
+    transition: .3s;
+    transition-property: background-color;
+}
+
+.sidebar ul li:hover {
+    background-color: aqua;
+}
+
+.sidebar ul li a:hover {
+    color: gold;
+}
+
+#check:checked ~ .sidebar {
+    left: 0;
+}
+
+
+@media (max-width: 768px) {
+
+    .mobile-menu {
+        display: block;
+    }
+
+    
+    .nav ul li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    header 
+    {
+        margin: 0;
+    }
+    #check {
+        position: absolute;
+    }
+    .atas {
+        display: none;
+    }
+    .btn1 {
+        display: none;
+    }
+    /* .atas ul {
+        display: none;
+    } */
+
+}
+.main-semantic {
+    
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+main {
+    background-color: rgb(189, 189, 189);
+    height: 700px;
+    /* border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 50%; */
+    
+}
+article {
+    background-color: red;
+    height: 200px;
+}
