@@ -1,0 +1,77 @@
+@media (max-width: 680px) {
+
+    .mobile-menu {
+        display: block;
+    }
+
+    
+    .nav ul li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    header 
+    {
+        margin: 0;
+    }
+    #check {
+        position: absolute;
+    }
+    .atas {
+        display: none;
+    }
+    .btn1 {
+        display: none;
+    }
+    /* .atas ul {
+        display: none;
+    } */
+    .main-semantic h1 {
+        font-size: 25px;
+    }
+    .main-text {
+        padding: 10px;
+        position: absolute;
+        margin-top: 70px;
+    }
+    .button-main {
+        display: flex;
+        gap: 20px;
+    }
+    .button-main button {
+    border: none;
+    background-color: orange;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+  
+
+    }
+    .main-semantic {
+        padding: 10px;
+    }
+    main {
+        height: 500px;
+    }
+    .kotak {
+        margin-left: 20px;
+        height: 100px;
+        width: 300px;
+        height: 60px;
+        margin-top: -20px;
+    }
+    .semua img {
+    width: 30px;
+    border-radius: 50%;
+
+}
+   .semua {
+   
+    gap: 25px;
+    margin-top: 17px;
+
+}
+   
+
+}
