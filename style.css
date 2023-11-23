@@ -34,9 +34,9 @@ header h1 a:hover {
     color: gold;
 }
 
-/* header ul {
+header ul {
    
-} */
+}
 
 header li {
     padding: 24px;
@@ -92,7 +92,7 @@ a {
     width: 200px;
     background-color: black;
     transition: .3s;
-    height: 300px;
+    height: 400px;
 }
 
 .sidebar ul li a {
@@ -118,13 +118,43 @@ a {
 }
 
 
+@media (max-width: 768px) {
 
+    .mobile-menu {
+        display: block;
+    }
+
+    
+    .nav ul li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    header 
+    {
+        margin: 0;
+    }
+    #check {
+        position: absolute;
+    }
+    .atas {
+        display: none;
+    }
+    .btn1 {
+        display: none;
+    }
+    /* .atas ul {
+        display: none;
+    } */
+
+}
 /* bagian main  */
-/* .main-semantic {
+.main-semantic {
     
     
    
-} */
+}
 
 main {
     background-color: rgb(231, 231, 231);
@@ -133,9 +163,9 @@ main {
     border-bottom-right-radius: 50%; */
     
 }
-/* .main h1 {
+.main h1 {
     
-} */
+}
 .main-text {
     padding: 200px;
   
