@@ -52,7 +52,7 @@ a {
 }
 
 .atas {
-    width: 90%;
+    /* width: 90%; */
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
     
@@ -149,20 +149,60 @@ a {
     } */
 
 }
+/* bagian main  */
 .main-semantic {
     
-    position: absolute;
+    /* position: absolute;
     margin-top: 200px;
-    margin-left: 300px;
+    margin-left: 300px; */
 }
+
 main {
-    background-color: rgb(189, 189, 189);
+    background-color: rgb(231, 231, 231);
     height: 700px;
     /* border-bottom-left-radius: 20%;
     border-bottom-right-radius: 50%; */
     
 }
-article {
-    background-color: red;
+.main h1 {
+    margin-left: 200;
+}
+.button-main button {
+    border: none;
+    background-color: orange;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.trapesium {
     height: 200px;
+}
+.kotak {
+    width: 600px;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 400px;
+}
+.semua {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+
+}
+.semua img {
+    width: 50px;
+    border-radius: 50%;
+
+}
+.aside-gambar {
+    display: flex;
+    flex-direction: column;
 }
