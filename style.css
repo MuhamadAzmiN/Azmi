@@ -34,9 +34,9 @@ header h1 a:hover {
     color: gold;
 }
 
-header ul {
+/* header ul {
    
-}
+} */
 
 header li {
     padding: 24px;
@@ -120,11 +120,11 @@ a {
 
 
 /* bagian main  */
-.main-semantic {
+/* .main-semantic {
     
     
    
-}
+} */
 
 main {
     background-color: rgb(231, 231, 231);
@@ -133,9 +133,9 @@ main {
     border-bottom-right-radius: 50%; */
     
 }
-.main h1 {
+/* .main h1 {
     
-}
+} */
 .main-text {
     padding: 200px;
   
