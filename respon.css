@@ -86,8 +86,8 @@
 }
 .serutama {
     display: block;
-   
-   
+    
+    width: 500px;
     margin-left: 40px;
 }
 .logo {
@@ -107,6 +107,17 @@ header {
     border-radius: 50%;
 
 } 
+.serutama h1 {
+    font-size: 40px;
+}
+.ser2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+article {
+    height: 200rem;
+}
+
 
 
    
