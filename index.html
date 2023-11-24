@@ -85,7 +85,7 @@
        
     </main>
     
-    <div class="trapesium">
+    <div class="trapesium" >
     <div class="animate__animated animate__bounceInRight">
         <div class="kotak">
             <div class="semua">
@@ -169,6 +169,11 @@
                     backSpeed : 80,
                     backDelay : 2000,
                 })
+
+                const header = document.querySelector("header")
+                window.addEventListener ("scroll", function() {
+                    header.classList.toggle("sticky", window.scrollY > 120);
+                });
     </script>
  
 
