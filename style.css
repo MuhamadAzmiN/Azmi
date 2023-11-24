@@ -312,6 +312,7 @@ main {
 }
 /* bagian services */
 article {
+    width: 100%;
     margin-top: 200px;
     height: 60rem;
     background-color: #081b29;
@@ -320,7 +321,7 @@ article {
 .serutama {
     display:flex;
     gap: 30px;
-    margin-left: 100px;
+    margin-left: 200px;
     margin-top: 50px;
    
 }
