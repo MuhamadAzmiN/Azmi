@@ -28,7 +28,8 @@
         display: none;
     } */
     .main-semantic h1 {
-        font-size: 25px;
+        font-size: 40px;
+       
     }
     .main-text {
         padding: 10px;
@@ -39,15 +40,7 @@
         display: flex;
         gap: 20px;
     }
-    .button-main button {
-    border: none;
-    background-color: orange;
-    width: 150px;
-    height: 30px;
-    border-radius: 10px;
-  
-
-    }
+ 
     .main-semantic {
         padding: 10px;
     }
@@ -55,7 +48,7 @@
         height: 500px;
     }
     .kotak {
-        margin-left: 20px;
+        margin-left: 40px;
         height: 100px;
         width: 300px;
         height: 60px;
@@ -82,8 +75,21 @@
 }
 .serutama {
     display: block;
+   
+   
     margin-left: 40px;
 }
+.logo {
+    display: block;
+    width: 0;
+    position: absolute;
+}
+header {
+    position: fixed;
+    width: 100%;
+}
+
+
    
 
 }
