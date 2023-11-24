@@ -28,8 +28,8 @@
         display: none;
     } */
     .main-semantic h1 {
-        font-size: 35px;
-        margin-left: 50px;
+        font-size: 30px;
+        margin-left: 70px;
     }
     .multiType {
         font-size: 25px;
@@ -46,13 +46,14 @@
         display: flex;
         gap: 5px;
         width: 250px;
-        margin-left: 50px;
+        margin-left: 80px;
         margin-top: -40px;
         position: absolute;
     }
  
     .main-semantic {
         padding: 10px;
+        margin-left: 30px;
     }
     main {
         height: 500px;
