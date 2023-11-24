@@ -318,9 +318,9 @@ article {
     color: white;
 }
 .serutama {
-    display: flex;
+    display:flex;
     gap: 30px;
-    margin-left: 420px;
+    margin-left: 430px;
     margin-top: 50px;
    
 }
