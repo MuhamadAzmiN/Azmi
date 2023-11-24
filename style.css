@@ -339,8 +339,8 @@ article {
 .serutama {
     display:flex;
     gap: 30px;
-    margin: 10px;
-    margin-left: 400px;
+    align-items: center;
+    justify-content: center;
    
    
 }
