@@ -87,12 +87,12 @@
 .serutama {
     display: block;
     
-    width: 500px;
+    width: 300px;
     margin-left: 40px;
 }
 .logo {
     display: block;
-    width: 0;
+    
     position: absolute;
 }
 header {
@@ -115,8 +115,10 @@ header {
     margin-top: 20px;
 }
 article {
-    height: 200rem;
+    height: 1500px;
 }
+
+
 
 
 
