@@ -122,6 +122,12 @@ header.sticky {
     box-shadow: 0px 0px 10px black;
     transition: all .3s ease-in-out;
 }
+.text-judul {
+    font-size: 10px;
+}
+.gambar-aside img {
+    width: 200px;
+}
 
 
 

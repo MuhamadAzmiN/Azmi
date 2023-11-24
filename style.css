@@ -409,7 +409,7 @@ article {
    
   
 }
-.fa-wand-magic-sparkles {
+/* .fa-wand-magic-sparkles {
     margin-top: 100px;
     margin-left: 140px;
 }
@@ -420,4 +420,7 @@ article {
 .fa-lock {
     margin-left: 140px;
     margin-top: 100px;
+} */
+.textjudul {
+    font-size: 20px;
 }
