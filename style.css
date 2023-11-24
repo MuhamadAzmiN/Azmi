@@ -155,8 +155,12 @@ a {
     
    
 }
-.main-semantic {
-    font-size: 38px;
+.main-semantic h1 {
+    font-size: 70px;
+    
+}
+.multiType {
+    font-size: 40px;
 }
 main {
     background-color: #081b29;
@@ -165,6 +169,20 @@ main {
     /* border-bottom-left-radius: 20%;
     border-bottom-right-radius: 50%; */
     
+}
+.main-text img {
+    width: 350px;
+    margin-left: 100px;
+    margin-top: -40px;
+    position: absolute;
+    border-radius: 50%;
+
+}
+.button-main {
+    margin: 2px;
+}
+.azmi {
+    font-size: 60px;
 }
 .font {
     font-size: 50px;
@@ -180,8 +198,9 @@ main {
     width: 150px;
     height: 40px;
     border-radius: 10px;
-    margin-top: 50px;
-   margin: 5px;
+    margin-top: 40px;
+    margin: 5px;
+    gap: 2px;
 }
 .btnmain1 {
     z-index: 1;
