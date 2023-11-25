@@ -90,7 +90,7 @@
             <img   src="https://i.pinimg.com/564x/48/fb/5c/48fb5c82418c7eeb9acb53ad7b44b1d3.jpg"alt="">
             <div class="main-semantic">
             <h1 class="animate__animated animate__fadeInUp" ><span style="color: #00abf0  ;"><span class="Azmi">Im Azmi</span><BR/>
-                    <span style="color: white;" class="multiType"></span></h1>
+                    <span class="multiType"></span></h1>
                 </h1>   
                    
             </div>
@@ -206,6 +206,13 @@
                 window.addEventListener("scroll", function() {
                     atas.classList.toggle("sticky", window.scrollY > 120)
                 })
+                     var typingEffect = new Typed (".multiType", {
+                    strings : [" Im Web Developer", "Fullstack"],
+                    loop : true,
+                    typeSpeed : 140,
+                    backSpeed : 80,
+                    backDelay : 2000,
+                })
          const body = document.querySelector('body');
 const btn = document.querySelector('.btn-btn');
 const icon = document.querySelector('.btn-icon');
@@ -255,13 +262,7 @@ document.querySelector('.menu-toggle').addEventListener('click', function() {
 
 
 
-         var typingEffect = new Typed (".multiType", {
-                    strings : [" Im Web Developer", "Fullstack"],
-                    loop : true,
-                    typeSpeed : 140,
-                    backSpeed : 80,
-                    backDelay : 2000,
-                })
+      
 
                
                 

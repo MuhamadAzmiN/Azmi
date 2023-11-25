@@ -187,6 +187,9 @@ header ul {
 .darkmode article {
     background-color: white;
 }
+.darkmode .multiType {
+    color: white;
+}
 .logo {
     display: none;
 }
@@ -316,12 +319,16 @@ a {
     
    
 }
+.multiType {
+    color: black;
+}
 .main-semantic h1 {
     font-size: 70px;
     
 }
 .multiType {
     font-size: 40px;
+    
 }
 main {
     background-color: #ffffff;
