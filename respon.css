@@ -133,7 +133,7 @@ header.sticky {
     margin-left: 100px;
     margin-top: 13px;
     position: absolute;
-    width: 80px;
+    width: 70px;
     height: 40px;
 }
 .btn-indicator {
@@ -160,6 +160,20 @@ header.sticky {
 .darkmode .logo {
     color: white;
 }
+.serutama {
+    margin-left: 27px;
+}
    
+.portofolio {
+    display: block;
+     margin-left: 30px
+}
+.portofolio img {
+    width: 330px;
+   
+}
+section {
+    height: 1000px;
+}
 
 }
