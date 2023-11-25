@@ -2,6 +2,7 @@
 
     .mobile-menu {
         display: block;
+        z-index: 1000;
     }
     
 
@@ -119,7 +120,7 @@ article {
     height: 1500px;
 }
 header.sticky {
-    background-color: #0e324b;
+    background-color: #ffffff;
     box-shadow: 0px 0px 10px black;
     transition: all .3s ease-in-out;
 }
@@ -128,6 +129,9 @@ header.sticky {
 }
 .gambar-aside img {
     width: 200px;
+}
+.mobile-menu {
+    
 }
 .btn-btn {
     margin-left: 100px;
@@ -160,6 +164,12 @@ header.sticky {
 .darkmode .logo {
     color: white;
 }
+.darkmode header.sticky {
+    background-color:  #081b29;
+    box-shadow: 0px 0px 10px black;
+    transition: all .3s ease-in-out;
+}
+
 .serutama {
     margin-left: 27px;
 }
@@ -174,6 +184,9 @@ header.sticky {
 }
 section {
     height: 1000px;
+}
+.darkmode .btn-indicator {
+    transform: translateX(2em);
 }
 
 }
