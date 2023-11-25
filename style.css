@@ -38,8 +38,8 @@ header {
     
 }
 header.sticky {
-    
-    box-shadow: 0px 0px 10px black;
+    color: black;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
 header h1 {
     display: inline-block;
@@ -55,7 +55,138 @@ header ul {
     
    
 }
+.atas-aside {
+    display: flex;
+}
+/* mode malam  */
+.btn-btn {
+    background-color: aliceblue;
+    /* width: 15em;
+    height: 8em; */
+    border-radius: 10em;
+    /* padding: 0 0.5em; */
 
+    box-shadow: inset 0 8px 60px rgba(0,0,0, .1),
+                inset 0 8px 8px rgba(0,0,0, .1),
+                inset 0 -4px 4px rgba(0,0,0, .1);  
+    position: relative;   
+    margin-top: 20px; 
+    width: 120px;
+    height: 60px;
+    padding-top: 5px;
+    margin-top: 6px;
+    
+
+    cursor: pointer;
+}
+
+.btn-indicator {
+    background-color: aliceblue;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+
+
+    position: absolute;
+
+    box-shadow: 0 8px 40px rgba(0,0,0, .2);
+
+    transition: transform .3s ease;
+}
+
+.btn-icon-container {
+    width: 100%;
+    height: 100%;
+    top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-icon-container {
+    /* color: var(--ligh-color-icon); */
+    color: #00abf0;
+    font-size: 2rem;
+}
+
+.darkmode .btn-indicator {
+    transform: translateX(2em);
+}
+
+.btn-icon.animated{
+    animation: spin 0.5s;
+}
+
+@keyframes spin {
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.darkmode{
+    background-color: #323946;
+}
+
+
+.darkmode .content { 
+    color: white;
+}
+
+.darkmode .logo{
+    color: white;
+}
+
+.darkmode .btn-icon-container {
+    color: var(--dark-icon-color);
+    background-color: #323946;
+    border-radius: 100%;
+}
+
+.darkmode .btn-btn {
+    box-shadow: inset 0 8px 60px rgba(0,0,0, .3),
+                inset 8px 0 8px rgba(0,0,0, .3),
+                inset 0 -4px 4px rgba(0,0,0, .3);  
+}
+.darkmode .btn-indicator {
+    transform: translateX(4.5em);
+    box-shadow: 0 8px 40px rgba(0,0,0, .3);
+}
+
+.darkmode .btn-icon{
+    color: var(--dark-icon-color);
+}
+/* dark malam */
+.darkmode main {
+    background-color: #081b29;
+}
+.darkmode header ul li a {
+    color: white;
+   
+}
+.darkmode .fur {
+    font-size: 200px;
+}
+.darkmode .main-text img {
+    border: 1px solid #00abf0;
+}
+.darkmode .textjudul {
+    color: black;
+}
+.darkmode #texttambahan {
+    color: black;
+}
+.darkmode .ser1 h1 {
+    color: black;
+}
+.darkmode .ser2 h1 {
+    color: black;
+}
+.darkmode .ser3 h1 {
+    color: black;
+}
+.darkmode article {
+    background-color: white;
+}
 .logo {
     display: none;
 }
@@ -64,13 +195,20 @@ header li {
     padding: 24px;
     display: inline-block;
     transition: all .3s ease-in-out;
+    color: black;
     
+}
+header ul li a {
+    color: black;
 }
 
 header ul li a:hover {
-    color: #00abf0;
+    color: #000000;
    
     
+}
+.atas-aside ul li a {
+    color: black;
 }
 
 a {
@@ -80,14 +218,19 @@ a {
 .atas {
     /* width: 90%; */
     margin: 0 auto;
-    background-color: #081b29;
+    /* background-color: #ffffff; */
     gap: 20px;
+    transition: ease-in-out;
 
     
     
 }
+.atas .sticky {
+    background-color: rgb(255, 0, 0);
+     transition: all .3s ease-in-out;
+}
 .side {
-    color: #00abf0;
+    color: #000000;
 }
 .atas h1 {
     color: white;
@@ -96,12 +239,14 @@ a {
 .atas-aside {
     margin-left: 200px;
     display: flex;
+    margin-top: -70px;
 }
 
 .atas a {
     color: rgb(255, 255, 255);
     
 }
+
 
 
 .atas:after {
@@ -177,7 +322,7 @@ a {
     font-size: 40px;
 }
 main {
-    background-color: #081b29;
+    background-color: #ffffff;
     height: 700px;
 
     /* border-bottom-left-radius: 20%;
@@ -190,6 +335,7 @@ main {
     margin-top: -10px;
     position: absolute;
     border-radius: 50%;
+    border: 3px solid #00abf0;
 
 }
 .button-main {
@@ -222,7 +368,7 @@ main {
     position: relative;
     background-color: #00abf0;
     border: 1px solid black;
-    border: none;
+    border: 1px solid black;
     
 }
 .btnmain1::after{
@@ -244,6 +390,7 @@ main {
    width: 200px;
    display: block;
    color: white;
+   
     
 }
 .btnmain2 {
@@ -405,10 +552,28 @@ article {
     text-align: center;
     padding-top: 140px;
 }
-.texttambahan {
+
+#texttambahan {
     text-align: center;
+    font-size: 20px;
+
+    /* text-align: center; */
+    
    
   
+}
+.fa-wand-magic-sparkles{
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.fa-code {
+     margin-left: 150px;
+    margin-top: 100px;
+}
+.fa-lock {
+    margin-left: 150px;
+    margin-top: 100px;
+    
 }
 /* .fa-wand-magic-sparkles {
     margin-top: 100px;
@@ -424,4 +589,17 @@ article {
 } */
 .textjudul {
     font-size: 20px;
+}
+.logo {
+    color: black;
+}
+header.sticky {
+    background-color: #0e0f0f65;
+    backdrop-filter: (20px);
+    box-shadow: 0px 0px 10px black;
+    transition: all .3s ease-in-out;
+    color: white;
+}
+header.sticky {
+    color: white;
 }

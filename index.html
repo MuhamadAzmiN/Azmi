@@ -27,10 +27,17 @@
      <script>
     AOS.init();
   </script> 
+  
      <header style="z-index: 4;">
+        <div class="btn-btn">
+            <div class="btn-indicator">
+                <div class="btn-icon-container">
+                    <i class="btn-icon fa-solid fa-sun"></i>
+                </div>
+            </div>
+                </div>
         
-        
-        <button class="btn1">GET STARTED</button>
+        <button class="btn1" style="margin-top: -50px;">GET STARTED</button>
         <input type="checkbox" id="check" style="display: none;">
         <div class="sidebar">
         
@@ -43,30 +50,38 @@
             </ul>
           
         </div>
+        
               
         </div>
             <!--label-->
             
             
-            <h1 class="logo"  style="color: rgb(255, 255, 255); ; ; ">Az.</h1>
+            <h1 class="logo">Az.</h1>
             <label for="check" class="mobile-menu">
-            <i class="fa-solid fa-bars" style="color: rgb(255, 255, 255);"></i>
+            <i class="fa-solid fa-bars"></i>
             </label>
             <!--bagian header-->
+            
             <div class="atas">
+               
                 <div class="atas-aside">
-                    <h1 style="font-size: 30px;">Az<span class="side">.</span></h1>
+              
+                     
+                    <h1 class="fur" style="font-size: 30px; color: #00abf0
+                    ;">Az<span class="side">.</span></h1>
                     <ul>
                         <li><a href="">Home</a></li>
                         <li><a href="">About</a></li>
                         <li><a href="">Contact</a></li>
                     </ul>
-                </div>
+            
+              
             </div>
     </header>
     
     <main>      
         <div class="main-text">
+            
             <img src="https://i.pinimg.com/564x/48/fb/5c/48fb5c82418c7eeb9acb53ad7b44b1d3.jpg"alt="">
             <div class="main-semantic">
             <h1 class="animate__animated animate__fadeInUp" ><span style="color: #00abf0  ;"><span class="Azmi">Im Azmi</span><BR/>
@@ -133,8 +148,8 @@
             </aside>
                 <article>
                     <div class="services"  data-aos="fade-down" data-aos-duration="1500">
-                        <h1 class="textjudul" style="font-size: 50px;">My <span style="color: #00abf0;">Services</span></h1>
-                         <p class="textambahan" style="font-size: 20px; text-align: center;">Here are the services we are providing to you</p>
+                        <h1 class="textjudul" style="font-size: 50px;">My <span class="serbeda">Services</span></h1>
+                         <p id="texttambahan" >Here are the services we are providing to you</p>
                         <div class="serutama" data-aos="flip-right" data-aos-duration="1500">
                             <div class="ser1">
                                 <i class="fa-solid fa-wand-magic-sparkles fa-2xl" style="color: #00abf0;"></i>
@@ -154,11 +169,65 @@
                     </div>   
                 </article>
                 <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill=" #081b29" fill-opacity="1111.11" d="M0,192L18.5,165.3C36.9,139,74,85,111,96C147.7,107,185,181,222,192C258.5,203,295,149,332,112C369.2,75,406,53,443,90.7C480,128,517,224,554,272C590.8,320,628,320,665,277.3C701.5,235,738,149,775,144C812.3,139,849,213,886,218.7C923.1,224,960,160,997,133.3C1033.8,107,1071,117,1108,144C1144.6,171,1182,213,1218,192C1255.4,171,1292,85,1329,53.3C1366.2,21,1403,43,1422,53.3L1440,64L1440,0L1421.5,0C1403.1,0,1366,0,1329,0C1292.3,0,1255,0,1218,0C1181.5,0,1145,0,1108,0C1070.8,0,1034,0,997,0C960,0,923,0,886,0C849.2,0,812,0,775,0C738.5,0,702,0,665,0C627.7,0,591,0,554,0C516.9,0,480,0,443,0C406.2,0,369,0,332,0C295.4,0,258,0,222,0C184.6,0,148,0,111,0C73.8,0,37,0,18,0L0,0Z"></path></svg> -->
-
+                <div class="background"></div>
 
 
                 <h1>SEDANG DALAM PENGERJAAAN</h1>
     <script>
+         const header = document.querySelector("header")
+                window.addEventListener ("scroll", function() {
+                    header.classList.toggle("sticky", window.scrollY > 120);
+                });
+                const atas = document.querySelector("atas")
+                window.addEventListener("scroll", function() {
+                    atas.classList.toggle("sticky", window.scrollY > 120)
+                })
+         const body = document.querySelector('body');
+const btn = document.querySelector('.btn-btn');
+const icon = document.querySelector('.btn-icon');
+
+btn.addEventListener('click', () => {
+
+    body.classList.toggle('darkmode');
+    icon.classList.add('animated');
+
+    function setDarkMode(isDark) {
+    if(isDark){
+        document.body.setAttribute('id','darkmode');
+    }else{
+        document.body.setAttribute('id','');
+    }
+    }
+
+
+    if(body.classList.contains('darkmode')){
+        icon.classList.remove('fa-sun');
+        icon.classList.add('fa-moon');
+    }else{
+        icon.classList.remove('fa-moon');
+        icon.classList.add('fa-sun');
+    }
+    
+
+
+    setTimeout(() => {
+        icon.classList.remove('animated');
+    }, 500)
+    function setDarkMode(isDark) {
+    if(isDark){
+        document.body.setAttribute('id','darkmode');
+    }else{
+        document.body.setAttribute('id','');
+    }
+    }
+
+
+})
+
+document.querySelector('.menu-toggle').addEventListener('click', function() {
+    document.querySelector('.navbar').classList.toggle('active');
+    document.querySelector('.menu-toggle').classList.toggle('change');
+});
 
 
 
@@ -170,10 +239,8 @@
                     backDelay : 2000,
                 })
 
-                const header = document.querySelector("header")
-                window.addEventListener ("scroll", function() {
-                    header.classList.toggle("sticky", window.scrollY > 120);
-                });
+               
+                
     </script>
  
 
