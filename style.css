@@ -5,9 +5,9 @@
     font-family: 'Poppins', sans-serif; ;
     box-sizing: border-box;
 }
-body {
+/* body {
     background-color: #00abf0;
-}
+} */
 
 .nav ul li:hover {
     background-color: gold;
@@ -312,6 +312,9 @@ a {
     transition-property: background-color;
     color: black;
     background-color: #00abf0;
+}
+.darkmode .sidebar ul li {
+    background-color: #081b29;
 }
 
 .sidebar ul li:hover {
@@ -716,4 +719,7 @@ footer {
 }
 .yey {
     margin-left: 500px;
+}
+.rip {
+    color: black;
 }
