@@ -160,7 +160,7 @@ header ul {
     background-color: #081b29;
 }
 .darkmode header ul li a {
-    color: white;
+    color: rgb(255, 255, 255);
    
 }
 .darkmode .fur {
@@ -173,10 +173,10 @@ header ul {
     color: rgb(255, 255, 255);
 }
 .darkmode #texttambahan {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 .darkmode .ser1 h1 {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .darkmode .ser2 h1 {
     color: rgb(255, 255, 255);
@@ -622,16 +622,16 @@ article {
 }
 header.sticky {
     background-color: #ffffff;
-  
+   
     box-shadow: 0px 0px 10px black;
     transition: all .3s ease-in-out;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 header.sticky {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 section {
-    height: 600px;
+    height: 1000px;
     background-color: white;
 }
 .portofolio img {
@@ -652,7 +652,68 @@ section h1 {
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
+    padding-top: 200px;
+    
 }
 html {
     scroll-behavior: smooth;
+}
+.joint {
+    margin-top: 200px;
+    text-align: center;
+
+}
+.joint h1 {
+    font-size: 70px;
+    color: white;
+}
+.joint button {
+    border: none;
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #081b29;
+    color: #00abf0;
+    font-size: 20px;
+    margin: 20px;
+
+}
+.fa-arrow-right {
+   display: none;
+}
+.darkmode .joint h1 {
+    color: black;
+}
+.darkmode footer {
+    background-color: #081b29;}
+.darkmode img {
+    border: 2px solid #00abf0;
+}
+footer {
+    height: 170px;
+    background-color: #ffffff;
+    margin-top: 400px;
+}
+.img2{
+    margin-left: 600px;
+}
+.footer-aside  {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+    
+    
+}
+.footer-aside img {
+    width: 30px;
+    border-radius: 50%;
+}
+.footer-aside h1 {
+    font-size: 20px;
+    
+}
+.yey {
+    margin-left: 500px;
 }

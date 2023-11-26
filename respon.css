@@ -188,5 +188,53 @@ section {
 .darkmode .btn-indicator {
     transform: translateX(2em);
 }
+.joint {
+    margin-top: 200px;
+    text-align: center;
+
+}
+.joint img {
+    width: 300px;
+}
+.joint h1 {
+    font-size: 30px;
+    color: white;
+}
+.joint button {
+    border: none;
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #081b29;
+    color: #00abf0;
+    font-size: 20px;
+   
+
+}
+.img2{
+    margin-left: 600px;
+}
+.footer-aside  {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+    
+    
+}
+.footer-aside img {
+    width: 30px;
+    border-radius: 50%;
+}
+.footer-aside h1 {
+    font-size: 13px;
+    display: block;
+    
+}
+.yey {
+    margin-left:0px;
+}
+
 
 }
