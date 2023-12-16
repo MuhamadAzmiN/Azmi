@@ -45,7 +45,7 @@
             
             <ul>
                 
-                <li><a href="#home">Home</a></li>
+                <li id="naon"><a href="#home">Home</a></li>
                 <li><a href="#hahai">Services</a></li>
                 <li><a href="#project">Project</a></li>
                 <li><a href="#about">About</a></li>
@@ -74,7 +74,7 @@
                     ;">Az<span class="side">.</span></h1>
                     <ul>
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
+                        <li id="js"><a href="#about">About</a></li>
                         <li><a href="#">Collaborate</a></li>
                         <li><a href="#hahai">Services</a></li>
                         <li><a href="#project">Project</a></li>
@@ -152,7 +152,7 @@
        </div>
             </aside>
                 <article  id="hahai">
-                    <div class="services"  data-aos="fade-down" data-aos-duration="1500">
+                    <div class="services" data-aos="fade-down" data-aos-duration="1500">
                         <h1 class="textjudul" style="font-size: 50px;">My <span class="serbeda">Services</span></h1>
                          <p id="texttambahan" >Here are the services we are providing to you</p>
                         <div class="serutama" data-aos="flip-right" data-aos-duration="1500">
@@ -197,11 +197,11 @@
                         <h1 class="jablak" data-aos="fade-right" data-aos-duration="2000">Interested to collaborate <br>
                             <span style="margin-left: 10px;">together</span>
                         </h1>
-                        <!-- <button class="bt" data-aos="fade-left" data-aos-duration="2300">Lets talk </button>
-                        <i class="fa-solid fa-arrow-right fa-xl" style="color: #00abf0"></i> -->
+                         <button class="bt" data-aos="fade-left" data-aos-duration="2300">Lets talk </button>
                         
-                    </div>
-                    <!-- <img class="img2" src="File_sharing_concept_3d_render-removebg-preview.png" alt=""> -->
+                        
+                    <!-- </div> -->
+                 
                 </div>
                 <footer>
                     <div class="footer-aside">
@@ -222,10 +222,14 @@
 
                
     <script>
+        const lu = document.getElementById('js')
+        lu.addEventListener('click', function(){
+            lu.style.color = "orange"
+        })
+     
 
 
-        let name = prompt('nama anda siapa') 
-        alert(`halo ${name} selamat datang diwebsite portofolio Azmi`)
+   
          const header = document.querySelector("header")
                 window.addEventListener ("scroll", function() {
                     header.classList.toggle("sticky", window.scrollY > 120);
@@ -287,6 +291,7 @@ document.querySelector('.menu-toggle').addEventListener('click', function() {
     document.querySelector('.navbar').classList.toggle('active');
     document.querySelector('.menu-toggle').classList.toggle('change');
 });
+  
 
 
 

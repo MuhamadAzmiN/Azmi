@@ -12,6 +12,9 @@
 .nav ul li:hover {
     background-color: gold;
 }
+#js {
+    color: orange;
+}
 .nav ul li {
     color: white;
 }
